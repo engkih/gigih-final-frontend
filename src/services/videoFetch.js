@@ -1,5 +1,5 @@
 import axios from 'axios';
-const serverUrl = "gigih-final-backend-production.up.railway.app:3030"
+const serverUrl = "gigih-final-backend-production.up.railway.app"
 
 console.log(serverUrl)
 
