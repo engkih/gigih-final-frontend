@@ -8,24 +8,13 @@ import { Link } from "react-router-dom"
 import { useState, useEffect } from "react";
 import { useContext } from "react";
 import { AppContext } from "../App";
-// import { AppContext } from "../App";
-// import { vidIds } from "../reactRoute";
-// import { vidIds } from "../reactRoute";
-// import pageLink from "../reactRoute";
-// import { pageLink } from "../reactRoute";
-// import PageLink from "../reactRoute";
+
 
 
 export default function MainCard() {
-  // const [data, setData] = useState([]);
+
 const {videoIds} = useContext(AppContext)
-  // useEffect(() => {
-  //   fetch("http://localhost:3030/")
-  //   .then(response => response.json())
-  //   .then(data => setData(data))
-  //   .catch((error) => console.error(error));
-  // }, []);
-  // console.log({urlId})
+
   const listThumb = videoIds.map(
     pageLink =>
       <Card maxW="sm">
