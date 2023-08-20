@@ -1,4 +1,4 @@
-# TOKOPEDIA PLAY (FRONTEND)
+# Tokopedia Play Clone Frontend
 
 This repo is frontend code for Tokopedia Play clone project in Generasi Gigih 3.0.
 
@@ -31,7 +31,7 @@ This repo is frontend code for Tokopedia Play clone project in Generasi Gigih 3.
     ```bash
     npm install
     ```
-4. Chang
+4. Change
    ```bash
    const serverUrl = "http://localhost:3030/"
    ```
